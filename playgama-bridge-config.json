@@ -1,0 +1,77 @@
+{
+    "platforms": {
+        "game_distribution": {
+            "gameId": ""
+        },
+        "telegram": {
+            "adsgramBlockId": ""
+        },
+        "y8": {
+            "gameId": "",
+            "adsenseId": "",
+            "channelId": ""
+        },
+        "lagged": {
+            "devId": "",
+            "publisherId": ""
+        },
+        "msn": {
+            "gameId": ""
+        },
+        "discord" : {
+            "appId": ""
+        },
+        "gamepush": {
+            "projectId": "",
+            "publicToken": ""
+        }
+    },
+    "advertisement": {
+        "interstitial": {
+            "preloadOnStart": true
+        },
+        "rewarded": {
+            "preloadOnStart": true
+        },
+        "useBuiltInErrorPopup": true,
+        "backfillId": ""
+    },
+    "payments": [
+        {
+            "id": "Starter_pack",
+            "yandex": {
+                "amount": 80
+            }
+        },
+        {
+            "id": "AD_Disabled",
+            "yandex": {
+                "amount": 50
+            }
+        },
+        {
+            "id": "Money_1",
+            "yandex": {
+                "amount": 30
+            }
+        },
+        {
+            "id": "Money_2",
+            "yandex": {
+                "amount": 60
+            }
+        },
+        {
+            "id": "Money_3",
+            "yandex": {
+                "amount": 90
+            }
+        }
+    ],
+    "leaderboards": [
+        {
+            "id": "leaderboard",
+            "yandex": "leaderboard"
+        }
+    ]
+}
