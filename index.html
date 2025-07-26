@@ -68,14 +68,14 @@
                     bridge.game.on('visibility_state_changed', state => sendMessageToUnity('OnVisibilityStateChanged', state))
 
                     let unityLoader = document.createElement('script')
-                    unityLoader.src = 'Build/Build.loader.js'
+                    unityLoader.src = 'Build/21c4a2c0c56ab7913d63c57538197af7.loader.js'
                     unityLoader.onload = () => {
                         createUnityInstance(
                             canvas,
                             {
-                                dataUrl: 'Build/Build.data.unityweb',
-                                frameworkUrl: 'Build/Build.framework.js.unityweb',
-                                codeUrl: 'Build/Build.wasm.unityweb',
+                                dataUrl: 'Build/5bdd356dcfa61dfe125cae9392d485bf.data.unityweb',
+                                frameworkUrl: 'Build/b4708613a3bbf83764fd34ac6dfea5d3.framework.js.unityweb',
+                                codeUrl: 'Build/4112e9dd0d53bbca2f002de69d1ebdab.wasm.unityweb',
                                 streamingAssetsUrl: 'StreamingAssets',
                                 companyName: 'DefaultCompany',
                                 productName: 'EndlessDriftGame',
@@ -677,6 +677,6 @@
             }
         </script>
     
-<script>console.log('%c' + 'PluginYG2 v2.0031  build: 109', 'color: #FFDF73; background-color: #454545');</script>
+<script>console.log('%c' + 'PluginYG2 v2.0031  build: 110', 'color: #FFDF73; background-color: #454545');</script>
 </body>
 </html>
